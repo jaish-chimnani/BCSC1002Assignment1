@@ -58,4 +58,13 @@ public class Library{
         return Arrays.hashCode(getBooks());
     }
 
+    public void issuedBook(String bookName) {
+        System.out.println(bookName + "book been should to you");
+    }
+
+    public void listOfBooks() {
+        for (Book book : books) {
+            System.out.println(book);
+        }
+    }
 }
