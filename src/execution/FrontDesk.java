@@ -18,5 +18,12 @@ public class FrontDesk{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         byte inputFromEndUser;
+        System.out.println("-=-=--=-=-\"Welcome To The Front Desk\"-=-=--=-=-\n" +
+                "How may I help you today?\n" +
+                "1. Issue a new book for me.\n" +
+                "2. Return a previously issues book for me.\n" +
+                "3. Show me all my issues books.\n" +
+                "4. Exit.\n");
+        inputFromEndUser = (byte) scanner.nextInt();
     }
 }
