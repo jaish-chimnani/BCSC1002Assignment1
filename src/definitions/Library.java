@@ -26,4 +26,12 @@ public class Library{
      * @return This method return current book that are currently avilable book[] .
      */
 
+    public Book[] getBooks() {
+        return books.clone();
+    }
+
+    public void setBooks(Book[] books) {
+        this.books = books;
+    }
+
 }
