@@ -34,4 +34,12 @@ public class Library{
         this.books = books;
     }
 
+
+    public void returnedBook(String bookName) {
+        System.out.println(bookName + " has been returned seccessfully . ");
+    }
+
+    public String toString() {
+        return String.format("List of Books : %s ", (Object) getBooks());
+    }
 }
