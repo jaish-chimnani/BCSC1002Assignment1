@@ -7,5 +7,14 @@
 package definitions;
 
 public class Library{
+    private Book[] books;
+
+    public Library() {
+        this.books = new Book[1000];
+        for (int i = 0; i < books.length; i++) {
+            books[i] = new Book("Books" + (i + 1));
+        }
+    }
+
 
 }

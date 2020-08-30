@@ -32,4 +32,5 @@ public class Student{
     public void setNameOfStudent(String[] nameOfStudent) {
         this.studentName = studentName;
     }
+
 }
