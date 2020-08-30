@@ -16,5 +16,14 @@ public class Library{
         }
     }
 
+    public Library(Book[] books) {
+        this.books = books;
+    }
+
+    /**
+     * This method return current book that are currently avilable book[] .
+     *
+     * @return This method return current book that are currently avilable book[] .
+     */
 
 }
