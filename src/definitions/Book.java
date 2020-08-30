@@ -17,4 +17,20 @@ public class Book {
         this.authorName = authorName;
         this.bookISBNNumber = bookISBNNumber;
     }
+
+    public Book() {
+
+    }
+
+    public Book(String bookName) {
+        this.bookName = bookName;
+        this.authorName = " DBMS  ";
+        this.bookISBNNumber = "1548965239575";
+    }
+
+    /*
+     * This method return name of book .
+     *
+     * @return The name of the books
+     */
 }
