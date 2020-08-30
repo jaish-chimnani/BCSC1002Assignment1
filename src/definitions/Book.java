@@ -33,4 +33,16 @@ public class Book {
      *
      * @return The name of the books
      */
+
+    public String getBookName() {
+
+        return bookName;
+    }
+    // above method returns the name of the book
+    public void setBookName(String bookName) {
+
+        this.bookName = bookName;
+    }
+    // above method sets the book name
+
 }
