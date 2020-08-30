@@ -6,6 +6,8 @@
  */
 package execution;
 
+import java.util.Scanner;
+
 public class FrontDesk{
 
     private static final byte NEW_BOOK_ISSUE = (byte) 1;
@@ -14,6 +16,7 @@ public class FrontDesk{
     private static final byte EXIT = (byte) 4;
 
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        byte inputFromEndUser;
     }
 }
