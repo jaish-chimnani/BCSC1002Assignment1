@@ -12,4 +12,17 @@ public class Student{
     private int booksIssued;
     private Book[] books;
 
+
+    public Student(String nameOfTheStudent, long universityRollNumber, int numberOfBooksIssued) {
+        this.studentName = nameOfTheStudent.split(" ");
+        this.universityRollNumber = universityRollNumber;
+        this.booksIssued = booksIssued;
+        this.books = new Book[numberOfBooksIssued];
+    }
+
+    /**
+     * above method returns the name of the student (first name, middle name, last name- all String).
+     *
+     * @return the name of the student (first name, middle name, last name- all String).
+     */
 }
