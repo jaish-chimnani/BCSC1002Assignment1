@@ -45,4 +45,20 @@ public class Book {
     }
     // above method sets the book name
 
+    public String getAuthorName() {
+
+        return authorName;
+    }
+
+    /**
+     * This method return author name of book .
+     *
+     * @return The author name of the books
+     */
+
+    public void setAuthorName(String authorName) {
+
+        this.authorName = authorName;
+    }
+
 }
