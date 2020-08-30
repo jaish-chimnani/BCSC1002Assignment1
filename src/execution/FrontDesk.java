@@ -8,6 +8,11 @@ package execution;
 
 public class FrontDesk{
 
+    private static final byte NEW_BOOK_ISSUE = (byte) 1;
+    private static final byte RETURNING_ISSUED_BOOK = (byte) 2;
+    private static final byte ISSUED_BOOKS = (byte) 3;
+    private static final byte EXIT = (byte) 4;
+
     public static void main(String[] args) {
 
     }
