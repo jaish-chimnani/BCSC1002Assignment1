@@ -9,7 +9,7 @@ package definitions;
 import java.util.Arrays;
 
 public class Library{
-    private Book[] books;
+    private static Book[] books;
 
     public Library() {
         this.books = new Book[1000];
@@ -37,7 +37,7 @@ public class Library{
     }
 
 
-    public void returnedBook(String bookName) {
+    public static void returnedBook(String bookName) {
         System.out.println(bookName + " has been returned seccessfully . ");
     }
 
@@ -58,11 +58,12 @@ public class Library{
         return Arrays.hashCode(getBooks());
     }
 
-    public void issuedBook(String bookName) {
-        System.out.println(bookName + "book been should to you");
+    public static void issuedBook(String bookName) {
+        System.out.println(bookName + " book is issued to you");
+        return ;
     }
 
-    public void listOfBooks() {
+    public static void listOfBooks() {
         for (Book book : books) {
             System.out.println(book);
         }
